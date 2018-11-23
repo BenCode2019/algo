@@ -8,6 +8,10 @@ import java.util.Arrays;
  * @Description:
  */
 public class Sorts {
+    /**
+     * 冒泡排序
+     * @param a
+     */
     public static void bubbleSort(int[] a){
         if(a.length <= 1){
             return;
